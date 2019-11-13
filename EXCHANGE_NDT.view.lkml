@@ -3,21 +3,21 @@ view: exchange_ndt {
 # If necessary, uncomment the line below to include explore_source.
 
     derived_table: {
-      explore_source: forex {
-        column: forex_exchange_date { field:forex.forex_exchange_date}
-        column: audusd { field:forex.audusd}
-        column: chfjpy { field:forex.chfjpy}
-        column: eurchf { field:forex.eurchf}
-        column: eurgbp { field:forex.eurgbp }
-        column: eurjpy { field:forex.eurjpy}
-        column: eurusd { field:forex.eurusd}
-        column: gbpchf { field:forex.gbpchf}
-        column: gbpjpy { field:forex.gbpjpy}
-        column: gbpusd { field:forex.gbpusd}
-        column: nzdusd { field:forex.nzdusd }
-        column: usdjpy { field:forex.usdjpy}
-        column: usdchf { field:forex.usdchf}
-        column: usdcad { field:forex.usdcad}
+      explore_source: bq_forex {
+        column: forex_exchange_date { field:bq_forex.forex_exchange_date}
+        column: audusd { field:bq_forex.audusd}
+        column: chfjpy { field:bq_forex.chfjpy}
+        column: eurchf { field:bq_forex.eurchf}
+        column: eurgbp { field:bq_forex.eurgbp }
+        column: eurjpy { field:bq_forex.eurjpy}
+        column: eurusd { field:bq_forex.eurusd}
+        column: gbpchf { field:bq_forex.gbpchf}
+        column: gbpjpy { field:bq_forex.gbpjpy}
+        column: gbpusd { field:bq_forex.gbpusd}
+        column: nzdusd { field:bq_forex.nzdusd }
+        column: usdjpy { field:bq_forex.usdjpy}
+        column: usdchf { field:bq_forex.usdchf}
+        column: usdcad { field:bq_forex.usdcad}
       }
     }
 
