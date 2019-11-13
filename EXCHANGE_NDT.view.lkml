@@ -4,20 +4,20 @@ view: exchange_ndt {
 
     derived_table: {
       explore_source: forex {
-        column: forex_exchange_date {}
-        column: audusd {}
-        column: chfjpy {}
-        column: eurchf {}
-        column: eurgbp {}
-        column: eurjpy {}
-        column: eurusd {}
-        column: gbpchf {}
-        column: gbpjpy {}
-        column: gbpusd {}
-        column: nzdusd {}
-        column: usdjpy {}
-        column: usdchf {}
-        column: usdcad {}
+        column: forex_exchange_date { field:forex.forex_exchange_date}
+        column: audusd { field:forex.audusd}
+        column: chfjpy { field:forex.chfjpy}
+        column: eurchf { field:forex.eurchf}
+        column: eurgbp { field:forex.eurgbp }
+        column: eurjpy { field:forex.eurjpy}
+        column: eurusd { field:forex.eurusd}
+        column: gbpchf { field:forex.gbpchf}
+        column: gbpjpy { field:forex.gbpjpy}
+        column: gbpusd { field:forex.gbpusd}
+        column: nzdusd { field:forex.nzdusd }
+        column: usdjpy { field:forex.usdjpy}
+        column: usdchf { field:forex.usdchf}
+        column: usdcad { field:forex.usdcad}
       }
     }
 
