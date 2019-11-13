@@ -1,3 +1,3 @@
-connection: "connection: "dogs-of-new-york""
+connection: "looker_exchange"
 
 include: "bigquery.explore"
